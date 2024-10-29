@@ -6,13 +6,12 @@ body {
 }
 
 .title-container {
-  box-shadow: 3px 3px 20px rgba(230, 235, 240, 0.288);
-  max-width: 20%;
+  color: white;
+  max-width: 30%;
   min-width: 290px;
   margin: 4% auto 2%;
   padding: 2% 2% 2.5%;
   text-align: center;
-  background: linear-gradient(to bottom, #99f2c8, #bed495);
   align-content: center;
   border-radius: 25px;
 }
@@ -50,22 +49,20 @@ img:hover {
 }
 
 footer {
-  box-shadow: 3px 3px 20px rgba(230, 235, 240, 0.288);
   min-width: 250px;
   width: 15%;
   margin: 4% auto;
   text-align: center;
-  background: linear-gradient(to bottom, #99f2c8, #bed495);
   align-content: center;
   border-radius: 33px;
 }
 
 
 h3 {
-  
+  color: white;
   font-size: small;
   font-family: sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a, a:visited, a:active {
