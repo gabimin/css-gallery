@@ -22,6 +22,8 @@ h1, h2
 }
 
 .container {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px 400px;
   padding: 2% 0 2%;
   display: flex;
   width: 100%;
@@ -29,6 +31,13 @@ h1, h2
   justify-content: center;
   margin: auto;
 }
+
+@media (max-width: 768px) {
+  img {
+    max-width: 100%; /* Las imágenes ocupan el ancho completo en pantallas pequeñas */
+  }
+}
+
 
 img {
   border-radius: 25px;
@@ -45,7 +54,7 @@ img:hover {
   max-width: 46%;
   min-width: 400px;
   cursor: pointer;
-  transition: 5s;
+  transition: max-width 0.4s, min-width 0.4s;
 }
 
 footer {
